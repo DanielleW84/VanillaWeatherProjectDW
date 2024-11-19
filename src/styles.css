@@ -1,6 +1,8 @@
 body {
   background-color: #f9f7fe;
-  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 header {
