@@ -1,10 +1,11 @@
 function refreshWeather(response) {
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = response.data.temperature.current;
   let cityElement = document.querySelector("#city");
 
-  cityElement.innerHTML = response.data.city;
+  let temperature = response.data.temperature.current;
+
   temperatureElement.innerHTML = Math.round(temperature);
+  cityElement.innerHTML = response.data.city;
 }
 
 function searchCity(city) {
